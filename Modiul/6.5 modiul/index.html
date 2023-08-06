@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        input:hover{
+            background-color: black;
+            color: white;
+            font-size: 2rem;
+        }
+        a:visited {
+            color: hotpink;
+            background: hotpink;
+        }
+        /* a:link{
+            background: hotpink;
+            color: white;
+        } */
+       p:first-child{
+        background: hotpink;
+        font-size: 2rem;
+       }
+       p::before, ::after{
+        content: "hello";
+        background: #000;
+        color: white;
+       }
+    </style>
+</head>
+
+<body>
+    <!-- psudo class -->
+    <input type="button" value="Hello world">
+    <a href="https://www.google.com/" target="_blank">Google</a>
+    <a href="https://www.youtube.com" target="_blank">youtube</a>
+    <div class="dis">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, ea?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, ea?</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, ea?</p>
+    </div>
+
+
+
+
+
+    <!-- psudo element -->
+
+
+
+
+</body>
+
+</html>

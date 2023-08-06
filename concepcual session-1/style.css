@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head-section{
+    background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    
+}
+.pic{
+    width: 100px;
+}
+.list-item{
+    color: white;
+    display: inline-block;
+    margin-left: 50px;
+}
+.list-item:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgs{
+    width: 300px;
+}
+.title{
+    color: white;
+    font-weight: bolder;
+    font-size: 55px;
+}
+.description{
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+.btn:hover{
+    background-image:url("/images/product-3.jpg");
+}
+.title-1{
+    text-align: center;
+    padding: 10px;
+    font-size: 55px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    padding: 7px;
+}
+.card{
+    height: auto;
+   width: 230px;
+   background-color: black;
+   display: inline-block;
+   margin: 30px;
+   color: white;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 10px gray;
+   flex-direction:row-reverse;
+   margin-left: 10%;
+}
+.icon{
+    width: 150px;
+    padding: 10px;
+}
+.card{
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    height: 400px;
+}
+.services{
+    background-image: url("/images/background.png");
+    background-color: black;
+    width: auto;
+    height: 580px;
+}
+.imgss{
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    padding-top: 30px;
+}
+.btn-1{
+    background-color: gray;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.card-pera{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+footer{
+    background-color: rgb(27, 25, 25);
+}
+.footer-section{
+    display: inline-block;
+    width: 300px;
+    color: white;
+    height: 380px;
+    padding: px;
+    margin-left: 30px;
+    
+}
+.pic-23{
+    width: 200px;
+}
+.list{
+    list-style: none;
+    padding: 5px;
+}
+.footer-header{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.hr-1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Copyright{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
